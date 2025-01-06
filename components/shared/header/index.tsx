@@ -4,7 +4,7 @@ import Menu from "./menu"
 import Search from "./search"
 // import Sidebar from './sidebar'
 // import { getSetting } from '@/lib/actions/setting.actions'
-import { HEADER_MENUS } from "@/lib/ecom/consts/header-menus"
+import { HEADER_MENUS } from "@/lib/ecom/consts/header-menus.const"
 import { getTranslations } from "next-intl/server"
 
 export const Header = async () => {

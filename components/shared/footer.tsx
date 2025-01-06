@@ -95,6 +95,7 @@ export const Footer = () => {
             <div className="flex items-center space-x-4 flex-wrap md:flex-nowrap">
               <Image
                 src="/icons/logo.svg"
+                alt={`logo`}
                 // alt={`${site.name} logo`}
                 width={48}
                 height={48}
