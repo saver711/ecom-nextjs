@@ -4,7 +4,7 @@ import Menu from "./menu"
 import Search from "./search"
 // import Sidebar from './sidebar'
 // import { getSetting } from '@/lib/actions/setting.actions'
-import { HEADER_MENUS } from "@/lib/ecom/consts/header-menus.const"
+import data from "@/lib/ecom/consts/data.const"
 import { getTranslations } from "next-intl/server"
 
 export const Header = async () => {
@@ -42,7 +42,7 @@ export const Header = async () => {
       <div className="flex items-center px-3 mb-[1px]  bg-gray-800">
         {/* <Sidebar categories={categories} /> */}
         <div className="flex items-center flex-wrap gap-3 overflow-hidden   max-h-[42px]">
-          {HEADER_MENUS.map(menu => (
+          {data.headerMenus.map(menu => (
             <Link
               href={menu.href}
               key={menu.href}
